@@ -2,9 +2,12 @@ import http from "http";
 import express, { Express } from "express";
 import morgan from "morgan";
 import routes from "./routes/reviews";
-const port = process.env.PORT || 3000;
 
 const router: Express = express();
+
+router.listen(3000, function() {
+  console.log("Server is running on port " + 3000);
+});
 
 /** Logging */
 router.use(morgan("dev"));
@@ -24,7 +27,7 @@ router.use((req, res, next) => {
   );
   // set the CORS method headers
   if (req.method === "OPTIONS") {
-    res.header("Access-Control-Allow-Methods", "GET PATCH DELETE POST");
+    res.header("Access-Control-Allow-Methods", "GET");
     return res.status(200).json({});
   }
   next();
