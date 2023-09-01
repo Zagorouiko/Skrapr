@@ -2,6 +2,7 @@ import http from "http";
 import express, { Express } from "express";
 import morgan from "morgan";
 import routes from "./routes/reviews";
+const port = process.env.PORT || 3000;
 
 const router: Express = express();
 
