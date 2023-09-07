@@ -1,1 +1,2 @@
-web: npm run start
+# web: --port=$PORT --no-browser
+worker: npm run start
