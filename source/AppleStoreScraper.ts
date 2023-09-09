@@ -12,7 +12,6 @@ export default async function AppleScraper(
   rating?: string,
   date?: string
 ) {
-  console.log("testing");
   let entriesArray: Review[] = [];
   for (let j = 0; j < 10; j++) {
     let jsonFeed = await axios.get(
@@ -21,6 +20,8 @@ export default async function AppleScraper(
       }/id=${appID}/sortby=mostrecent/json`
     );
 
+    if (!jsonFeed.data.feed.entry) { break }
+    
     for (let i = 0; i < jsonFeed.data.feed.entry.length; i++) {
       let entry = jsonFeed.data.feed.entry[i];
       let reviewObject: Review = {
