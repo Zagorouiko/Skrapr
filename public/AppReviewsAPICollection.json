@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "b8eb37ed-f024-4837-a8e5-00d3da897c74",
+		"name": "AppReviewsAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10031649",
+		"_collection_link": "https://winter-water-779994.postman.co/workspace/My-Workspace~023aa219-2f7e-48d3-8b11-4e82ee802c2d/collection/10031649-b8eb37ed-f024-4837-a8e5-00d3da897c74?action=share&source=collection_link&creator=10031649"
+	},
+	"item": [
+		{
+			"name": "Reviews",
+			"item": [
+				{
+					"name": "iOS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/6448311069",
+							"protocol": "https",
+							"host": [
+								"app-store-reviews-api-aeb965d6e5af",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"reviews",
+								"iOS",
+								"6448311069"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Android",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/6448311069",
+							"protocol": "https",
+							"host": [
+								"app-store-reviews-api-aeb965d6e5af",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"reviews",
+								"iOS",
+								"6448311069"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
