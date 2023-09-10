@@ -30,7 +30,19 @@
 							],
 							"query": [
 								{
+									"key": "rating",
+									"value": "3",
+									"description": "1-5",
+									"disabled": true
+								},
+								{
 									"key": "afterDate",
+									"value": "05/15/2023",
+									"description": "DD/MM/YYYY",
+									"disabled": true
+								},
+								{
+									"key": "beforeDate",
 									"value": "05/15/2023",
 									"description": "DD/MM/YYYY",
 									"disabled": true
