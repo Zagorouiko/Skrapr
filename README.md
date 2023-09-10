@@ -6,12 +6,12 @@ An API to grab Apple App store reviews from an RSS feed & Android Playstore revi
 
 To get ALL reviews - The following iOS endpoint is in this format:
 ```bash
-https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/<APPID>
+https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/APPID
 ```
 
 or Android: 
 ```bash
-https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/Android/<APPID>
+https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/Android/APPID
 ```
 
 The APPID for iOS can be found via the Apple app store:
@@ -20,7 +20,7 @@ The APPID for iOS can be found via the Apple app store:
 And the APPID for Android can be found in the Playstore:
 ![Android APP ID](/public/Android-ID.png?raw=true "Android APP ID")
 
-### Filter Paramater Examples
+## Filter Paramater Examples
 
 Filter by rating:
 ```bash
@@ -41,7 +41,7 @@ Filter by multiple filters:
 ```bash
 https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/<APPID>?rating=1&beforeDate=05/15/2023
 ```
-### Postman Collection Download
+## Postman Collection Download
 
 [Download Here](https://github.com/Zagorouiko/Skrapr/blob/master/public/AppReviewsAPICollection.json) and import into Postman
 
