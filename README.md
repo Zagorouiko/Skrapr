@@ -24,25 +24,25 @@ And the APPID for Android can be found in the Playstore:
 
 Filter by rating:
 ```bash
-https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/<APPID>?rating=1
+https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/APPID?rating=1
 ```
 
 Filter by afterDate:
 ```bash
-https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/<APPID>?afterDate=05/15/2023
+https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/APPID?afterDate=05/15/2023
 ```
 
 Filter by beforeDate:
 ```bash
-https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/<APPID>?beforeDate=05/15/2023
+https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/APPID?beforeDate=05/15/2023
 ```
 
 Filter by multiple filters:
 ```bash
-https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/<APPID>?rating=1&beforeDate=05/15/2023
+https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/APPID?rating=1&beforeDate=05/15/2023
 ```
 ## Postman Collection Download
 
-[Download Here](https://github.com/Zagorouiko/Skrapr/blob/master/public/AppReviewsAPICollection.json) and import into Postman
+[Download here](https://github.com/Zagorouiko/Skrapr/blob/master/public/AppReviewsAPICollection.json) and import into Postman
 
 
