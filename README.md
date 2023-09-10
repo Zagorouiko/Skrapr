@@ -1,6 +1,6 @@
 # App store reviews API
 
-An API to grab Apple App store reviews from an RSS feed & Android Playstore reviews directly from the UI. The reviews are able to be filter via rating, before date, and after date.
+An API to grab Apple App store reviews from an RSS feed & Android Playstore reviews directly from the UI. I couldn't find a way to do this online so I built it. The reviews are able to be filtered via rating, before date, and after date.
 
 ## Get Requests
 
