@@ -1,4 +1,4 @@
-# <p text-align="center">App store reviews API</p>
+# <span style="color: red;">App store reviews API</span>
 
 An API to grab Apple App store reviews from an RSS feed & Android Playstore reviews directly from the UI. The reviews are able to be filter via rating, before date, and after date.
 
