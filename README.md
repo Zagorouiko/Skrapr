@@ -1,6 +1,6 @@
-Any donations are welcome :pray:
-![Static Badge](https://img.shields.io/badge/BTC-15DDxy651B9zQhwJXgvBg2JJH4CwcT9FUd-gold)
-![Static Badge](https://img.shields.io/badge/ETH-0x2f5a2bf358f8b8e0d1e277d2d6941903319d7534-blue)
+Any donations are welcome :pray: <br/>
+![Static Badge](https://img.shields.io/badge/BTC-15DDxy651B9zQhwJXgvBg2JJH4CwcT9FUd-gold) <br/>
+![Static Badge](https://img.shields.io/badge/ETH-0x2f5a2bf358f8b8e0d1e277d2d6941903319d7534-blue) <br/>
 ![Static Badge](https://img.shields.io/badge/SOL-APfVsqRoJoa9MVGptV8HHb1ZsMfQZ6AyKPTHs8BLnFHT-purple)
 
 # App store reviews API
