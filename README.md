@@ -41,8 +41,8 @@ Filter by multiple filters:
 ```bash
 https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/<APPID>?rating=1&beforeDate=05/15/2023
 ```
-### Postman Collection
+### Postman Collection Download
 
-[Postman Collection](https://github.com/Zagorouiko/Skrapr/blob/master/public/AppReviewsAPICollection.json)
+[Download Here](https://github.com/Zagorouiko/Skrapr/blob/master/public/AppReviewsAPICollection.json) and import into Postman
 
 

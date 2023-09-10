@@ -16,7 +16,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/6448311069",
+							"raw": "https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/APPID",
 							"protocol": "https",
 							"host": [
 								"app-store-reviews-api-aeb965d6e5af",
@@ -26,7 +26,15 @@
 							"path": [
 								"reviews",
 								"iOS",
-								"6448311069"
+								"APPID"
+							],
+							"query": [
+								{
+									"key": "afterDate",
+									"value": "05/15/2023",
+									"description": "DD/MM/YYYY",
+									"disabled": true
+								}
 							]
 						}
 					},
@@ -35,10 +43,13 @@
 				{
 					"name": "Android",
 					"request": {
+						"auth": {
+							"type": "noauth"
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/6448311069",
+							"raw": "https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/Android/APPID",
 							"protocol": "https",
 							"host": [
 								"app-store-reviews-api-aeb965d6e5af",
@@ -47,8 +58,28 @@
 							],
 							"path": [
 								"reviews",
-								"iOS",
-								"6448311069"
+								"Android",
+								"APPID"
+							],
+							"query": [
+								{
+									"key": "rating",
+									"value": "3",
+									"description": "1-5",
+									"disabled": true
+								},
+								{
+									"key": "afterDate",
+									"value": "05/15/2023",
+									"description": "DD/MM/YYYY",
+									"disabled": true
+								},
+								{
+									"key": "beforeDate",
+									"value": "05/15/2023",
+									"description": "DD/MM/YYYY",
+									"disabled": true
+								}
 							]
 						}
 					},
