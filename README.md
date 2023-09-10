@@ -43,6 +43,6 @@ https://app-store-reviews-api-aeb965d6e5af.herokuapp.com/reviews/iOS/<APPID>?rat
 ```
 ### Postman Collection
 
-![Postman Collection](/public/AppReviewsAPICollection.json "Postman Collection")
+[Postman Collection](https://github.com/Zagorouiko/Skrapr/blob/master/public/AppReviewsAPICollection.json)
 
 
