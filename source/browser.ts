@@ -5,7 +5,7 @@ export default async function startBrowser() {
   try {
     console.log("Opening the browser......");
     browser = await puppeteer.launch({
-      headless: true,
+      headless: 'new',
       args: ["--no-sandbox"],
       ignoreHTTPSErrors: true,
     });
