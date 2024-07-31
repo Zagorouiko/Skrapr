@@ -9,13 +9,16 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = AppleScraper;
 const axios = require("axios");
 function AppleScraper(appID, rating, date) {
     return __awaiter(this, void 0, void 0, function* () {
-        console.log("testing");
         let entriesArray = [];
         for (let j = 0; j < 10; j++) {
             let jsonFeed = yield axios.get(`https://itunes.apple.com/us/rss/customerreviews/page=${j + 1}/id=${appID}/sortby=mostrecent/json`);
+            if (!jsonFeed.data.feed.entry) {
+                break;
+            }
             for (let i = 0; i < jsonFeed.data.feed.entry.length; i++) {
                 let entry = jsonFeed.data.feed.entry[i];
                 let reviewObject = {
@@ -27,7 +30,7 @@ function AppleScraper(appID, rating, date) {
                 entriesArray.push(reviewObject);
             }
         }
+        console.log(entriesArray);
         return entriesArray;
     });
 }
-exports.default = AppleScraper;

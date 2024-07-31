@@ -12,6 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = startBrowser;
 const puppeteer_1 = __importDefault(require("puppeteer"));
 function startBrowser() {
     return __awaiter(this, void 0, void 0, function* () {
@@ -19,8 +20,8 @@ function startBrowser() {
         try {
             console.log("Opening the browser......");
             browser = yield puppeteer_1.default.launch({
-                headless: "new",
-                args: ["--disable-setuid-sandbox"],
+                headless: 'new',
+                args: ["--no-sandbox"],
                 ignoreHTTPSErrors: true,
             });
         }
@@ -30,4 +31,3 @@ function startBrowser() {
         return browser;
     });
 }
-exports.default = startBrowser;
